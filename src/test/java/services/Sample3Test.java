@@ -12,9 +12,7 @@ public class Sample3Test {
     @DataProvider(name = "dataProvider")
     public Object[][] dataProvider(){
         return new Object[][] {
-            {998,200},
-            {997,200},
-            {996,200}
+            {998,200}
         };
 
 

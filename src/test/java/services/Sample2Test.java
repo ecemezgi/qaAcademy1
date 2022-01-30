@@ -1,7 +1,6 @@
 package services;
 
 import io.restassured.http.ContentType;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
@@ -9,10 +8,10 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class Sample2Test {
 
-    @BeforeTest
+    @Test
     public void postCreatePet(){
         String postData = "{\n" +
-                "  \"id\": 998,\n" +
+                "  \"id\": 996,\n" +
                 "  \"category\": {\n" +
                 "    \"id\": 0,\n" +
                 "    \"name\": \"Nemo\"\n" +
@@ -23,7 +22,7 @@ public class Sample2Test {
                 "  ],\n" +
                 "  \"tags\": [\n" +
                 "    {\n" +
-                "      \"id\": 998,\n" +
+                "      \"id\": 996,\n" +
                 "      \"name\": \"Nemo\"\n" +
                 "    }\n" +
                 "  ],\n" +

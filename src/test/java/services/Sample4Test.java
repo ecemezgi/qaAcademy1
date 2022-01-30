@@ -6,7 +6,7 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class sample4Test {
+public class Sample4Test {
 
     @Test
     public void getIventory(){
