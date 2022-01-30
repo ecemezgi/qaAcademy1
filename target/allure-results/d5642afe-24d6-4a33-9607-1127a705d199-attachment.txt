@@ -1,0 +1,8 @@
+Url = https://petstore.swagger.io/v2/store/inventory
+
+request header =Study=Test
+Accept=*/*
+
+request body =null
+
+response body ={"sold":23,"string":328,"alive":2,"unavailable":1,"pending":24,"available":555,"connector_up":1,"not available":1,"erwerwer":1}

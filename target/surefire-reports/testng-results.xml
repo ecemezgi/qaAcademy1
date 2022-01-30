@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-30T23:05:08 TRT" name="services.Sample4Test" finished-at="2022-01-30T23:05:10 TRT" duration-ms="2465">
+  <suite started-at="2022-01-31T00:17:24 TRT" name="services.Sample4Test" finished-at="2022-01-31T00:17:32 TRT" duration-ms="7325">
     <groups>
     </groups>
-    <test started-at="2022-01-30T23:05:08 TRT" name="Command line test" finished-at="2022-01-30T23:05:10 TRT" duration-ms="2465">
+    <test started-at="2022-01-31T00:17:24 TRT" name="Command line test" finished-at="2022-01-31T00:17:32 TRT" duration-ms="7325">
       <class name="services.Sample4Test">
-        <test-method signature="getIventory()[pri:0, instance:services.Sample4Test@64f6106c]" started-at="2022-01-30T23:05:08 TRT" name="getIventory" finished-at="2022-01-30T23:05:10 TRT" duration-ms="2439" status="PASS">
+        <test-method signature="getIventory()[pri:0, instance:services.Sample4Test@2b71e916]" started-at="2022-01-31T00:17:24 TRT" name="getIventory" finished-at="2022-01-31T00:17:32 TRT" duration-ms="7256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getIventory -->

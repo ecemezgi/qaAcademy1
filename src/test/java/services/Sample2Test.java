@@ -1,6 +1,8 @@
 package services;
 
 import io.restassured.http.ContentType;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
@@ -8,7 +10,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class Sample2Test {
 
-    @Test
+    @BeforeTest
     public void postCreatePet(){
         String postData = "{\n" +
                 "  \"id\": 996,\n" +
@@ -52,7 +54,7 @@ public class Sample2Test {
                 .log().all();
     }
 
-/*    @AfterTest
+   @AfterTest
     public void deletePet(){
 
         int petId = 998;
@@ -61,5 +63,5 @@ public class Sample2Test {
                 when().delete("https://petstore.swagger.io/v2/pet/" + petId).
                 then().statusCode(200).log().all();
 
-    }*/
+    }
 }
